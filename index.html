@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACoutdoor</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div>
+    <div class="sps">
+      <strong>AC Outdoor Printing System</strong>
+    </div>
+    <br><br>
+    
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+  
+        #mainDiv, #mainDiv * {
+          visibility: visible;
+        }
+        #mainDiv {
+          position: absolute;
+          left: 19.5%;
+          top: 9.5%;
+          
+        }
+      }
+     </style>
+     <button id="btnpos" onclick="printB()">Print</button>
+    <div id="mainDiv"> <br>
+      <img class="imgcls" src="acoutdore.png" alt="acoutdorimage">
+      
+      <div class="txt-cen">
+        <div>
+          <p><span class="sp1"><b>COMMERCIAL AIR CONDITIONAR</b></br>
+            <b>VRF OUTDOOR UNIT</span>
+            <br>
+              <span class="sp3"><b><i>IFM Series</i></b></span>
+            </p>
+        </div>
+      </div>
+
+
+
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>WDC240IFM20E3</th>
+          </tr>
+        </thead>
+       
+        <tbody>
+          <tr>
+            <th>Version</th>
+            <th>0101</th>
+          </tr>
+  
+          <tr>
+            <th>Capacity(Cooling/Heating)</th>
+            <th>6.8 KW/7.5KW</th>
+          </tr>
+  
+          <tr>
+            <th>Rated Voltage</th>
+            <th>380-415V</th>
+          </tr>
+  
+          <tr>
+            <th>Rated Current(Cooling/Heating)</th>
+            <th>82.4 A/83.81 A</th>
+          </tr>
+  
+          <tr>
+            <th>Rated Power Input(Cooling/Heating)</th>
+            <th>19.95 KW/ 20.49 KW</th>
+          </tr>
+          <tr>
+            <th>Max. Allowable Pressure (Heating)</th>
+            <th>4.2 MPa/2.2 MPa</th>
+          </tr>
+          <tr>
+            <th>Refrigerant(Charge)</th>
+            <th>R-410a (19.6KG)</th>
+          </tr>
+          <tr>
+            <th>Compressor Type</th>
+            <th>Scroll</th>
+          </tr>
+  
+          <tr>
+            <th>Compressor Oil (Volume)</th>
+            <th>FVCSSD(7.8 Liter)</th>
+          </tr>
+          <tr>
+            <th>Dimention(WxDxH)</th>
+            <th>1680 X 1650 X 780(mm)</th>
+          </tr>
+          <tr>
+            <th>Net Weight</th>
+            <th>445 Kg</th>
+          </tr>
+          <tr>
+            <th>Max. Current</th>
+            <th>N/A</th>
+          </tr>
+  
+          <tr>
+            <th>Isolation</th>
+            <th>I</th>
+          </tr>
+  
+          <tr>
+            <th>Climate Class</th>
+            <th>T1</th>
+          </tr>
+  
+          <tr>
+            <th>Moisture Protection</th>
+            <th>IP X4</th>
+          </tr>
+
+          <tr>
+            <th class="ale" colspan="2">
+              <div class="ldiv">
+              <p class="pcls">Product By<br>Walton Hi-Tech Industries PLC.<br><span>Chandra, Kaliakoir, Bangladesh</span><br>MADE IN BANGLADESH</p>
+             </div>
+            </th>
+          </tr>
+
+        </tbody>
+
+        
+      </table>
+
+    
+  </div>
+
+  <script>
+    function printB() {
+      document.getElementById("btnpos").style.display = 'none';
+      window.print();
+    }
+  </script>
+  
+  
+</body>
+
+</html>

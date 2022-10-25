@@ -1,0 +1,98 @@
+#mainDiv {
+  width: 71mm;
+  height: 137mm;
+  border-style: dashed;
+  border-width: 1px;
+  position: relative;
+  z-index: 15;
+  top: 112px;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+.txt-cen {
+  text-align: center;
+  font-size: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 6px;
+  font-size: 8px;
+  width: 258px;
+  height: 111mm;
+  text-align: center;
+}
+
+th,tr,td {
+  border: 1px solid black;
+}
+td,th {
+  font-family: verdana;
+  font-size: 8px;
+}
+
+.sps {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 24px;
+  background-color: azure;
+}
+
+
+.btnid {
+  margin-left: 300px;
+}
+
+.imgcls {
+  margin-left: 2px;
+  width: 80px;
+  height: 36px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.incls {
+  width: 60%;
+  height: 35px;
+}
+
+.btn1cls {
+  width: 49px;
+  height: 41px;
+  font-size: 15px;
+}
+
+.btn2 {
+  font-size: 24px;
+}
+
+.ldiv {
+  margin-left: 6px;
+  font-size: 8px;
+}
+
+#btnpos {
+  margin-left: 300px;
+}
+
+.pcls {
+  font-size: 7px;
+}
+.sp1 {
+  font-family: verdana;
+  font-size: 10px;
+}
+
+.sp3 {
+  font-family: verdana;
+  font-size: 7px;
+}
+
+
+.ale {
+  text-align: left;
+  font-size: 5px;
+}
